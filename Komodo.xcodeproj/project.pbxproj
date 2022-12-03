@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B6CF1E29261244006569D0 /* PineneedleDr.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B6CF1D29261244006569D0 /* PineneedleDr.m4a */; };
+		C1D53287290E0045007256BB /* KomodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53286290E0045007256BB /* KomodoApp.swift */; };
+		C1D53289290E0045007256BB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53288290E0045007256BB /* Persistence.swift */; };
+		C1D5328C290E0045007256BB /* Komodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1D5328A290E0045007256BB /* Komodo.xcdatamodeld */; };
+		C1D5328E290E0045007256BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5328D290E0045007256BB /* ContentView.swift */; };
+		C1D53290290E0048007256BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D5328F290E0048007256BB /* Assets.xcassets */; };
+		C1D53294290E0048007256BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D53293290E0048007256BB /* Preview Assets.xcassets */; };
+		C1D5329E290E0049007256BB /* KomodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5329D290E0049007256BB /* KomodoTests.swift */; };
+		C1D532A8290E0049007256BB /* KomodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D532A7290E0049007256BB /* KomodoUITests.swift */; };
+		C1D532AA290E0049007256BB /* KomodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D532A9290E0049007256BB /* KomodoUITestsLaunchTests.swift */; };
+		C1E9FDBE2923255A00214567 /* content.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1E9FDBD2923255900214567 /* content.mlmodel */; };
+		C1E9FDC02925A58000214567 /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9FDBF2925A58000214567 /* audio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1D5329A290E0049007256BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D5327B290E0045007256BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D53282290E0045007256BB;
+			remoteInfo = Komodo;
+		};
+		C1D532A4290E0049007256BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D5327B290E0045007256BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D53282290E0045007256BB;
+			remoteInfo = Komodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B6CF1D29261244006569D0 /* PineneedleDr.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = PineneedleDr.m4a; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/PineneedleDr.m4a"; sourceTree = "<group>"; };
+		C1B6CF5B292B4A28006569D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C1D53283290E0045007256BB /* Komodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Komodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D53286290E0045007256BB /* KomodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomodoApp.swift; sourceTree = "<group>"; };
+		C1D53288290E0045007256BB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C1D5328B290E0045007256BB /* Komodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Komodo.xcdatamodel; sourceTree = "<group>"; };
+		C1D5328D290E0045007256BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1D5328F290E0048007256BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1D53291290E0048007256BB /* Komodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Komodo.entitlements; sourceTree = "<group>"; };
+		C1D53293290E0048007256BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1D53299290E0049007256BB /* KomodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D5329D290E0049007256BB /* KomodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomodoTests.swift; sourceTree = "<group>"; };
+		C1D532A3290E0049007256BB /* KomodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D532A7290E0049007256BB /* KomodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomodoUITests.swift; sourceTree = "<group>"; };
+		C1D532A9290E0049007256BB /* KomodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1E9FDBD2923255900214567 /* content.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = content.mlmodel; path = ../../../Documents/content.mlmodel; sourceTree = "<group>"; };
+		C1E9FDBF2925A58000214567 /* audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D53280290E0045007256BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D53296290E0049007256BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D532A0290E0049007256BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D5327A290E0045007256BB = {
+			isa = PBXGroup;
+			children = (
+				C1E9FDB9291619FB00214567 /* New Group */,
+				C1D53285290E0045007256BB /* Komodo */,
+				C1D5329C290E0049007256BB /* KomodoTests */,
+				C1D532A6290E0049007256BB /* KomodoUITests */,
+				C1D53284290E0045007256BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D53284290E0045007256BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D53283290E0045007256BB /* Komodo.app */,
+				C1D53299290E0049007256BB /* KomodoTests.xctest */,
+				C1D532A3290E0049007256BB /* KomodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D53285290E0045007256BB /* Komodo */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6CF5B292B4A28006569D0 /* Info.plist */,
+				C1B6CF1D29261244006569D0 /* PineneedleDr.m4a */,
+				C1E9FDBD2923255900214567 /* content.mlmodel */,
+				C1D53286290E0045007256BB /* KomodoApp.swift */,
+				C1D53288290E0045007256BB /* Persistence.swift */,
+				C1D5328D290E0045007256BB /* ContentView.swift */,
+				C1D5328F290E0048007256BB /* Assets.xcassets */,
+				C1D53291290E0048007256BB /* Komodo.entitlements */,
+				C1D5328A290E0045007256BB /* Komodo.xcdatamodeld */,
+				C1D53292290E0048007256BB /* Preview Content */,
+				C1E9FDBF2925A58000214567 /* audio.swift */,
+			);
+			path = Komodo;
+			sourceTree = "<group>";
+		};
+		C1D53292290E0048007256BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1D53293290E0048007256BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1D5329C290E0049007256BB /* KomodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5329D290E0049007256BB /* KomodoTests.swift */,
+			);
+			path = KomodoTests;
+			sourceTree = "<group>";
+		};
+		C1D532A6290E0049007256BB /* KomodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D532A7290E0049007256BB /* KomodoUITests.swift */,
+				C1D532A9290E0049007256BB /* KomodoUITestsLaunchTests.swift */,
+			);
+			path = KomodoUITests;
+			sourceTree = "<group>";
+		};
+		C1E9FDB9291619FB00214567 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D53282290E0045007256BB /* Komodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D532AD290E0049007256BB /* Build configuration list for PBXNativeTarget "Komodo" */;
+			buildPhases = (
+				C1D5327F290E0045007256BB /* Sources */,
+				C1D53280290E0045007256BB /* Frameworks */,
+				C1D53281290E0045007256BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Komodo;
+			productName = Komodo;
+			productReference = C1D53283290E0045007256BB /* Komodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1D53298290E0049007256BB /* KomodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D532B0290E0049007256BB /* Build configuration list for PBXNativeTarget "KomodoTests" */;
+			buildPhases = (
+				C1D53295290E0049007256BB /* Sources */,
+				C1D53296290E0049007256BB /* Frameworks */,
+				C1D53297290E0049007256BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D5329B290E0049007256BB /* PBXTargetDependency */,
+			);
+			name = KomodoTests;
+			productName = KomodoTests;
+			productReference = C1D53299290E0049007256BB /* KomodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1D532A2290E0049007256BB /* KomodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D532B3290E0049007256BB /* Build configuration list for PBXNativeTarget "KomodoUITests" */;
+			buildPhases = (
+				C1D5329F290E0049007256BB /* Sources */,
+				C1D532A0290E0049007256BB /* Frameworks */,
+				C1D532A1290E0049007256BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D532A5290E0049007256BB /* PBXTargetDependency */,
+			);
+			name = KomodoUITests;
+			productName = KomodoUITests;
+			productReference = C1D532A3290E0049007256BB /* KomodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D5327B290E0045007256BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C1D53282290E0045007256BB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C1D53298290E0049007256BB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C1D53282290E0045007256BB;
+					};
+					C1D532A2290E0049007256BB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C1D53282290E0045007256BB;
+					};
+				};
+			};
+			buildConfigurationList = C1D5327E290E0045007256BB /* Build configuration list for PBXProject "Komodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1D5327A290E0045007256BB;
+			productRefGroup = C1D53284290E0045007256BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D53282290E0045007256BB /* Komodo */,
+				C1D53298290E0049007256BB /* KomodoTests */,
+				C1D532A2290E0049007256BB /* KomodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1D53281290E0045007256BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D53294290E0048007256BB /* Preview Assets.xcassets in Resources */,
+				C1D53290290E0048007256BB /* Assets.xcassets in Resources */,
+				C1B6CF1E29261244006569D0 /* PineneedleDr.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D53297290E0049007256BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D532A1290E0049007256BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D5327F290E0045007256BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D53287290E0045007256BB /* KomodoApp.swift in Sources */,
+				C1D5328C290E0045007256BB /* Komodo.xcdatamodeld in Sources */,
+				C1D5328E290E0045007256BB /* ContentView.swift in Sources */,
+				C1E9FDBE2923255A00214567 /* content.mlmodel in Sources */,
+				C1E9FDC02925A58000214567 /* audio.swift in Sources */,
+				C1D53289290E0045007256BB /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D53295290E0049007256BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D5329E290E0049007256BB /* KomodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D5329F290E0049007256BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D532A8290E0049007256BB /* KomodoUITests.swift in Sources */,
+				C1D532AA290E0049007256BB /* KomodoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1D5329B290E0049007256BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D53282290E0045007256BB /* Komodo */;
+			targetProxy = C1D5329A290E0049007256BB /* PBXContainerItemProxy */;
+		};
+		C1D532A5290E0049007256BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D53282290E0045007256BB /* Komodo */;
+			targetProxy = C1D532A4290E0049007256BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1D532AB290E0049007256BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1D532AC290E0049007256BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1D532AE290E0049007256BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Komodo/Komodo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Komodo/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L649GH86V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Komodo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.Komodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1D532AF290E0049007256BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Komodo/Komodo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Komodo/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L649GH86V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Komodo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.Komodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1D532B1290E0049007256BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.KomodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Komodo";
+			};
+			name = Debug;
+		};
+		C1D532B2290E0049007256BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.KomodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Komodo";
+			};
+			name = Release;
+		};
+		C1D532B4290E0049007256BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.KomodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Komodo;
+			};
+			name = Debug;
+		};
+		C1D532B5290E0049007256BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = komodo.KomodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Komodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D5327E290E0045007256BB /* Build configuration list for PBXProject "Komodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D532AB290E0049007256BB /* Debug */,
+				C1D532AC290E0049007256BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D532AD290E0049007256BB /* Build configuration list for PBXNativeTarget "Komodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D532AE290E0049007256BB /* Debug */,
+				C1D532AF290E0049007256BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D532B0290E0049007256BB /* Build configuration list for PBXNativeTarget "KomodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D532B1290E0049007256BB /* Debug */,
+				C1D532B2290E0049007256BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D532B3290E0049007256BB /* Build configuration list for PBXNativeTarget "KomodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D532B4290E0049007256BB /* Debug */,
+				C1D532B5290E0049007256BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1D5328A290E0045007256BB /* Komodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1D5328B290E0045007256BB /* Komodo.xcdatamodel */,
+			);
+			currentVersion = C1D5328B290E0045007256BB /* Komodo.xcdatamodel */;
+			path = Komodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1D5327B290E0045007256BB /* Project object */;
+}
